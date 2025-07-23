@@ -1,11 +1,12 @@
 # VTScripts
 A collection of scripts to automate the analysis of threat intelligence from VirusTotal.
-Usage example (assuming MacOS):
-$ shasum -a 256 test.file        /* Replace test.file to generate hash */
-$ python vt_fullreport.py hash api.key /* Replace hash with the SHA256 and api.key with your API key obtained from VirusTotal */
-$ python vt_json_to_html.py test.json /* Replace test.json with the JSON file generated from the previous step, if you want a HTML report */
-$ python vt_malicious_summary.py test.json /* Replace test.json with the JSON file generated from the previous step, if you want a summary of malicious activity */
-Output for the summary will be something like this:
+Usage example (assuming MacOS):<br>
+$ shasum -a 256 test.file        /* Replace test.file to generate hash */<br>
+$ python vt_fullreport.py hash api.key /* Replace hash with the SHA256 and api.key with your API key obtained from VirusTotal */<br>
+$ python vt_json_to_html.py test.json /* Replace test.json with the JSON file generated from the previous step, if you want a HTML report */<br>
+$ python vt_malicious_summary.py test.json /* Replace test.json with the JSON file generated from the previous step, if you want a summary of malicious activity */<br>
+Output for the summary will be something like this:<br>
+
 Sample 2 - XXXXXX.apk 
 
 ============================================================
